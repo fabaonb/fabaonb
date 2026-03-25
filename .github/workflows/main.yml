@@ -1,26 +1,31 @@
 name: Auto Commit
 
 "on":
- workflow_dispatch:
- schedule: 
- - cron: 0 16 * * *
+  workflow_dispatch:
+  schedule: 
+  - cron: 0 16 * * *
 
 permissions:
- contents: write
+  contents: write
 
 jobs:
- ac:
-  runs-on: ubuntu-latest
-  steps:
-   - uses: actions/checkout@v4
-   - run: |
-      git config --local user.email "email"
-      git config --local user.name "name"
+  ac:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v4
+     - run: |
+        git config --local user.email "email"
+        git config --local user.name "name"
 
-      for i in $(seq 1 $((RANDOM % 5 + 1))); do
-       echo "$(date +%Y-%m-%d)" > log.txt
-       git add log.txt
-       git commit --allow-empty -m "$(date +%Y-%m-%d)"
-      done
+        count=$((RANDOM % 11))
+        echo "当天计划提交次数：$count"
 
-      git push
+        for i in $(seq 1 $count); do
+         echo "$(date +%Y-%m-%d)" > log.txt
+         git add log.txt
+         git commit --allow-empty -m "$(date +%Y-%m-%d)-(共$count次)"
+        done
+
+        if [ $count -gt 0 ]; then
+          git push
+        fi
