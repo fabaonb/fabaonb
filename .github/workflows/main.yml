@@ -28,3 +28,4 @@ jobs:
         if [ $count -gt 0 ]; then
           git push
         fi
+
