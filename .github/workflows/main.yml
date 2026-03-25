@@ -14,11 +14,10 @@ jobs:
     steps:
      - uses: actions/checkout@v4
      - run: |
-        git config --local user.email "email"
         git config --local user.name "name"
+        git config --local user.email "email"
 
         count=$((RANDOM % 11))
-        echo "当天计划提交次数：$count"
 
         for i in $(seq 1 $count); do
          echo "$(date +%Y-%m-%d)-$count" > log.txt
