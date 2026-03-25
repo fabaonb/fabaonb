@@ -5,12 +5,17 @@ name: Auto Commit
   schedule: 
   - cron: 0 16 * * *
 
+  push:
+   branches:
+    - main
+      
 permissions:
   contents: write
 
 jobs:
   ac:
     runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
      - uses: actions/checkout@v4
      - run: |
@@ -22,7 +27,7 @@ jobs:
         for i in $(seq 1 $count); do
          echo "$(date +%Y-%m-%d)-$count" > log.txt
          git add log.txt
-         git commit --allow-empty -m "$(date +%Y-%m-%d)-$count"
+         git commit --allow-empty -m "$(date +%Y-%m-%d)-$count-[skip ci]"
         done
 
         if [ $count -gt 0 ]; then
