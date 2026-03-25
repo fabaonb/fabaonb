@@ -21,9 +21,9 @@ jobs:
         echo "当天计划提交次数：$count"
 
         for i in $(seq 1 $count); do
-         echo "$(date +%Y-%m-%d)" > log.txt
+         echo "$(date +%Y-%m-%d)-$count" > log.txt
          git add log.txt
-         git commit --allow-empty -m "$(date +%Y-%m-%d)-(共$count次)"
+         git commit --allow-empty -m "$(date +%Y-%m-%d)-$count"
         done
 
         if [ $count -gt 0 ]; then
