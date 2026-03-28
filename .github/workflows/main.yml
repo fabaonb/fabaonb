@@ -33,8 +33,9 @@ jobs:
           for i in $(seq 1 $count); do
             echo "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count" > log.txt
             git add log.txt
-            git commit -m "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count-[skip ci]" || echo "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count"
+            git commit -m "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count-[skip ci]" || continue
             git push origin main
+            sleep 1
           done
 
           git push origin main
