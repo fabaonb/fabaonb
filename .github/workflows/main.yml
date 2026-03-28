@@ -24,17 +24,22 @@ jobs:
           git config --local user.name "name"
           git config --local user.email "email"
 
-          count=$((RANDOM % 11))
+          count=$((RANDOM % 10))
 
           if [ $count -eq 0 ]; then
-            exit 0
+           exit 0
           fi
-
+            
           for i in $(seq 1 $count); do
-            echo "$(date "+%Y-%m-%d %H:%M:%S")-$count" > log.txt
+            if [ $count -eq 0 ]; then
+             exit 0
+            fi
+            echo "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count" > log.txt
             git add log.txt
-            git commit -m "$(date "+%Y-%m-%d %H:%M:%S")-$count-[skip ci]" || echo "$(date "+%Y-%m-%d %H:%M:%S")-$count"
+            git commit -m "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count-[skip ci]" || continue
+            git push origin main
+            sleep 1
           done
 
-          git push origin main
+
 
