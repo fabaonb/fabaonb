@@ -1,36 +1,39 @@
 name: Auto Commit
 
-"on":
+on:
   workflow_dispatch:
-  schedule: 
-  - cron: 0 16 * * *
-
+  schedule:
+    - cron: '0 16 * * *'
   push:
-   branches:
-    - main
-      
+    branches:
+      - main
+
 permissions:
   contents: write
 
 jobs:
   ac:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
     steps:
-     - uses: actions/checkout@v4
-     - run: |
-        git config --local user.name "name"
-        git config --local user.email "email"
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 保证分支历史完整
 
-        count=$((RANDOM % 11))
+      - name: Random Commits
+        run: |
+          git config --local user.name "name"
+          git config --local user.email "email"
 
-        for i in $(seq 1 $count); do
-         echo "$(date +%Y-%m-%d)-$count" > log.txt
-         git add log.txt
-         git commit --allow-empty -m "$(date +%Y-%m-%d)-$count-[skip ci]"
-        done
+          count=$((RANDOM % 11))
 
-        if [ $count -gt 0 ]; then
-          git push
-        fi
+          if [ $count -eq 0 ]; then
+            exit 0
+          fi
 
+          for i in $(seq 1 $count); do
+            echo "$(date +%Y-%m-%d %H:%M:%S)-$i" > log.txt
+            git add log.txt
+            git commit -m "$(date +%Y-%m-%d %H:%M:%S)-$i [skip ci]"
+          done
+
+          git push origin main
