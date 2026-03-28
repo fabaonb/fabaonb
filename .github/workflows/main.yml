@@ -2,11 +2,6 @@ name: Auto Commit
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 16 * * *'
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -16,27 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Random Commits
         run: |
           git config --local user.name "name"
           git config --local user.email "email"
 
-          count=$((RANDOM % 10))
-
-          if [ $count -eq 0 ]; then
-           exit 0
-          fi
-            
-          for i in $(seq 1 $count); do
             echo "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count" >> log.txt
             git add log.txt
             git commit -m "$(date "+%Y-%m-%d %H:%M:%S:%N")-$count-[skip ci]" || echo "$(date "+%Y-%m-%d %H:%M:%S")"
             git pull origin main --rebase
             git push origin main
-          done
 
-          git push origin main
 
