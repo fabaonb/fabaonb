@@ -31,9 +31,9 @@ jobs:
           fi
 
           for i in $(seq 1 $count); do
-            echo "$(date +%Y-%m-%d %H:%M:%S)-$count" > log.txt
+            echo "$(date-"+%Y-%m-%d-%H:%M:%S")-$count" > log.txt
             git add log.txt
-            git commit -m "$(date +%Y-%m-%d %H:%M:%S)-$count-[skip ci]"
+            git commit -m "$(date-"+%Y-%m-%d-%H:%M:%S")-$count-[skip ci]"
           done
 
           git push origin main
