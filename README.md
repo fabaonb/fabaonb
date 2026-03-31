@@ -1,28 +1,50 @@
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0">
+  <table>
     <tr>
-      <td align="center" colspan="3">
-        <img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" />
+      <td colspan="3" align="center">
+        <picture>
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+        </picture>
       </td>
     </tr>
     <tr>
-      <td align="center" valign="middle">
-        <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
-        <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
-        <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
+      <td align="center">
+        <picture>
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+        </picture>
       </td>
-      <td align="center" valign="middle">
-        <img src="https://raw.githubusercontent.com/sun0225SUN/sun0225SUN/main/assets/images/coding.gif" width="315" />
+      <td align="center">
+        <picture>
+          <img src="https://raw.githubusercontent.com/sun0225SUN/sun0225SUN/main/assets/images/coding.gif" />
+        </picture>
       </td>
-      <td align="center" valign="middle">
-        <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
-        <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
-        <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
+      <td align="center">
+        <picture>
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+        </picture>
       </td>
     </tr>
     <tr>
-      <td align="center" colspan="3">
-        <img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" /><img src="https://github.com/images/mona-happy.gif" width="105" />
+      <td colspan="3" align="center">
+        <picture>
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+          <img src="https://github.com/images/mona-happy.gif" width="105" />
+        </picture>
       </td>
     </tr>
   </table>
