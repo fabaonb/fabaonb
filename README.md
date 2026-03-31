@@ -3,32 +3,54 @@
     <tr>
       <td colspan="3" align="center">
         <picture>
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
         </picture>
       </td>
     </tr>
     <tr>
       <td align="center">
         <picture>
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
         </picture>
       </td>
       <td align="center">
@@ -38,32 +60,54 @@
       </td>
       <td align="center">
         <picture>
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" style="display: block;" />
         </picture>
       </td>
     </tr>
     <tr>
       <td colspan="3" align="center">
         <picture>
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
-          <img src="https://github.com/images/mona-happy.gif" width="45" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
+          <img src="https://github.com/images/mona-happy.gif" width="20" />
         </picture>
       </td>
     </tr>
