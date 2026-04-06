@@ -1,4 +1,4 @@
-<div align="center">
+<p align="center">
   <table>
     <tr>
       <td colspan="3" align="center">
@@ -68,9 +68,9 @@
       </td>
     </tr>
   </table>
-</div>
+</p>
 
-<div align="center">
+<p align="center">
  <picture>
     <img src="https://github.com/images/mona-happy.gif"/>
     <img src="https://github.com/images/mona-happy.gif"/>
@@ -79,4 +79,4 @@
     <img src="https://github.com/images/mona-happy.gif"/>
     <img src="https://github.com/images/mona-happy.gif"/>
  <picture>
-</div>
+</p>
